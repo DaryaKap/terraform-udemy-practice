@@ -1,0 +1,13 @@
+ Volume in drive D has no label.
+ Volume Serial Number is XXXX-XXXX
+
+17.04.2024  22:31    <DIR>          .
+17.04.2024  22:25    <DIR>          ..
+17.04.2024  22:29    <DIR>          .terraform
+17.04.2024  22:29             2 422 .terraform.lock.hcl
+17.04.2024  22:31               220 .terraform.tfstate.lock.info
+17.04.2024  22:31               581 local-command-exec.tf
+17.04.2024  22:31                 0 log.txt
+17.04.2024  22:31               574 terraform.tfstate
+               5 File(s)          3 797 bytes
+               3 Dir(s)  596 231 110 656 bytes free

@@ -1,0 +1,44 @@
+Terraform Commands:
+
+terraform init
+terraform plan
+terraform apply
+terraform destroy
+
+terraform show
+terraform output
+terraform console
+terraform import
+terraform taint
+
+
+--------------------------------------------
+Terraform State Commands:
+
+Safe commands:
+1. terraform state show      #show state resources
+terraform state show aws_instance.web
+
+2. terraform state list     #list of all resources
+3. terraform state pull     #show content of remote state file
+
+Dangerous commands:
+1. terraform state rm       #delete resource
+2. terraform state mv       #recreate resource (example: change name)
+terraform state mv -state-out="terraform.tfstate" aws_eip.prod_ip1 aws_eip.prod_ip1
+terraform state mv -state-out="terraform.tfstate" aws_eip.prod_ip2 aws_eip.prod_ip2
+terraform state mv -state-out="terraform.tfstate" aws_instance.web-prod aws_instance.web-prod
+
+3. terraform state push     #push new tfstate file to remote state file
+terraform state push terraform.tfstate
+
+
+
+---------------------------------------------------------------------
+Terraform Workspace Commands:
+
+terraform workspase show
+terraform workspase list
+terraform workspase new   (creates new workspace and switches to it)
+terraform workspase delete
+terraform workspase select

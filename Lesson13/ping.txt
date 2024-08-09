@@ -1,0 +1,24 @@
+
+Pinging www.google.com [142.250.203.132] with 32 bytes of data:
+Reply from 142.250.203.132: bytes=32 time=13ms TTL=117
+Reply from 142.250.203.132: bytes=32 time=30ms TTL=117
+Reply from 142.250.203.132: bytes=32 time=15ms TTL=117
+Reply from 142.250.203.132: bytes=32 time=16ms TTL=117
+Reply from 142.250.203.132: bytes=32 time=14ms TTL=117
+
+Ping statistics for 142.250.203.132:
+    Packets: Sent = 5, Received = 5, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 13ms, Maximum = 30ms, Average = 17ms
+
+Pinging www.google.com [142.250.203.132] with 32 bytes of data:
+Reply from 142.250.203.132: bytes=32 time=13ms TTL=117
+Reply from 142.250.203.132: bytes=32 time=13ms TTL=117
+Reply from 142.250.203.132: bytes=32 time=16ms TTL=117
+Reply from 142.250.203.132: bytes=32 time=13ms TTL=117
+Reply from 142.250.203.132: bytes=32 time=14ms TTL=117
+
+Ping statistics for 142.250.203.132:
+    Packets: Sent = 5, Received = 5, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 13ms, Maximum = 16ms, Average = 13ms
